@@ -72,6 +72,4 @@ Maxi Protocol goal is to develop a decentralized finance system that allows toke
 </p>
 
 <hr>
-<p align="center">
-Developed with ❤️ in India 🇮🇳 
-</p>
+
