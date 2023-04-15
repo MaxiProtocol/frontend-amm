@@ -632,6 +632,10 @@
           
       }
       function updateFee(uint256 _txFee,uint256 _burnFee,address _FeeAddress)external onlyOwner{
+          require(
+            _txFee + _burnFee <= 10,
+            "Total fee is over 10%"
+        );
           txFee = _txFee;
           burnFee = _burnFee;
           FeeAddress = _FeeAddress;
